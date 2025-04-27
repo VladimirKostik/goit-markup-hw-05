@@ -619,7 +619,7 @@ margin-left: auto;
 
 .fot-form-wrap {
       display: flex;
-      gap: 24;
+      gap: 24px;
 }
 
 .fot-label {
@@ -666,6 +666,7 @@ border: 1px solid #fff;
 
    max-width: 165px;
    height: 40px;
+   min-width: 165px;
 
 font-family: "Roboto", sans-serif;
 font-weight: 500;

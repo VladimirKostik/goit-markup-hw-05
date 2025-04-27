@@ -756,7 +756,7 @@ right: 24px;
   
 }
  
-.modal-btn-icon:hover
+.modal-btn-icon:hover,
 .modal-btn-icon:focus {
 background-color: #404bbf;
 border: none;
@@ -787,6 +787,7 @@ font-weight: 500;
    letter-spacing: 0.02em;
    text-align: center;
    color: #2e2f42;
+   margin-bottom: 16px;
 }
 
 .modal-wrap-bloc {
@@ -875,6 +876,11 @@ font-weight: 500;
       color: rgba(46, 47, 66, 0.4);
       background-color: transparent;
 }
+
+.modal-textarea-bloc {
+margin-bottom: 16px;
+}
+
 
 .modal-textarea::placeholder {
    font-family: "Roboto",
